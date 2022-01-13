@@ -29,3 +29,4 @@ colnames(diff_gene2)<- "gene_id"
 
 CRC_diff_1 <- diff_gene2
 save(CRC_diff_1,file = "./resultdata/CRC_0.01_200.Rdata")
+ 
