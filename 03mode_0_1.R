@@ -29,7 +29,7 @@ normal_cpm_median <- median_count(normal_cpm_miExpr,"normal_exo")
 cell_line_cpm_median <- median_count(cell_line_cpm_miExpr,"cell_line_exo")
 rawdata<-data.frame( merge(normal_cpm_median,cell_line_cpm_median,by="gene_id",all=T))
 }
-
+ 
 {
 mark<-seq(from=0,to=1,by=0.1)
 #mark<-seq(from=0.9,to=1,by=0.01)
