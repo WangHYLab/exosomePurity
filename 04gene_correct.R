@@ -81,3 +81,4 @@ purity <- t(purity)
   diffgene<- out[out$qval<0.05&abs( out$log2FC)>1,]
   save(diffgene,file='./resultdata/crc_correct_113.Rdata')
   
+ 
