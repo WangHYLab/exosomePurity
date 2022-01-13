@@ -72,3 +72,4 @@ common<-intersect(normal,cancer)
 reference_gene<-as.data.frame(common)
 colnames(reference_gene)<-'gene_id'
 save(reference_gene,file='./resultdata/CRC_var2_h20_51refgenes.Rdata')
+ 
