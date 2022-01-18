@@ -33,7 +33,7 @@ Signatures between cancer cell line-derived exosomes and healthy cell-derived ex
 
 ##
 ### Step3
-Builting tumour purity deconvolution model to quantify the proportions of cancer exosomes and normal exosomes in serum
+Building tumour purity deconvolution model to quantify the proportions of cancer exosomes and normal exosomes in serum
 
 Applying R script 03mode_0_1.R for this step. 
 #### Input data
