@@ -23,6 +23,7 @@ Differential miRNAs between cancer cell line-derived exosomes and healthy cell-d
 ##
 ### Step2
 Selecting miRNA signatures which are differentially expressed between groups and stably expressed within groups.
+
 Applying R script **02signature_Var_Exp.r** for this step. 
 ##### Input data
 The miRNA-Seq data of cancer cell line-derived exosomes and healthy cell-derived exosomes(CPM).
