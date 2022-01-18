@@ -1,5 +1,5 @@
 # exosomePurity
-A tumour purity deconvolution model to estimate tumour purity in serum exosomes of cancer patients based on miRNA signatures
+A tumour purity deconvolution model to estimate tumour purity in serum exosomes of cancer patients based on miRNA signatures.
 
 ## Prerequisites
 exosomePurity is written in R(version 4.0.3), requiring R packages DESeq2, preprocessCore, quadprog and edgeR.
@@ -33,7 +33,7 @@ Signatures between cancer cell line-derived exosomes and healthy cell-derived ex
 
 ##
 ### Step3
-Building tumour purity deconvolution model to quantify the proportions of cancer exosomes and normal exosomes in serum
+Building tumour purity deconvolution model to quantify the proportions of cancer exosomes and normal exosomes in serum.
 
 Applying R script 03mode_0_1.R for this step. 
 #### Input data
@@ -47,7 +47,7 @@ The tumor purity of cancer patients' serum exosomes.
 
 ##
 ### Step4
-Utilizing the exosome purity calculated by the model to correct differentially expressed miRNAs
+Utilizing the exosome purity calculated by the model to correct differentially expressed miRNAs.
 
 Applying R script 04gene_correct.R for this step.
 #### Input data
@@ -55,7 +55,7 @@ The miRNA-Seq data of serum exosomes of cancer patients(CPM).
 
 The tumor purity of cancer patients' serum exosomes obtained from step3.
 #### Output data
-Differentially expressed miRNAs corrected by tumour purity
+Differentially expressed miRNAs corrected by tumour purity.
 
 
 ## Running the tests
@@ -83,7 +83,7 @@ Applying R script 02signature_Var_Exp.r for this step.
 [CRC_var2_h20_51refgenes.Rdata]
 
 ### Step3
-Builting tumour purity deconvolution model to quantify the proportions of cancer exosomes and normal exosomes in serum
+Builting tumour purity deconvolution model to quantify the proportions of cancer exosomes and normal exosomes in serum.
 
 Applying R script 03mode_0_1.R for this step. 
 #### Input data
@@ -95,7 +95,7 @@ Applying R script 03mode_0_1.R for this step.
 [celline_purity_0_1.csv]
 
 ### Step4
-Utilizing the exosome purity calculated by the model to correct differentially expressed miRNAs
+Utilizing the exosome purity calculated by the model to correct differentially expressed miRNAs.
 
 Applying R script 04gene_correct.R for this step.
 #### Input data
