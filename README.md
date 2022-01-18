@@ -14,7 +14,7 @@ The steps of exosomePurity are as follows:
 ### Step1
 Performing the differential analysiss between cancer cell line-derived exosomes and healthy cell-derived exosomes using miRNA-Seq data.
 
-Applying R script 01signature_DEGS.r for this step. 
+Applying R script **01signature_DEGS.r** for this step. 
 #### Input data
 The miRNA-Seq data of cancer cell line-derived exosomes and healthy cell-derived exosomes(rawcount).
 #### Output data
