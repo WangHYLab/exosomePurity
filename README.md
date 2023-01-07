@@ -52,4 +52,9 @@ Utilizing the exosome purity calculated by the model to correct differentially e
 
 Applying R script **04gene_correct.R** for this step.
 #### Input data
-The miRNA-Seq data of ser
+The miRNA-Seq data of serum exosomes of cancer patients(CPM).
+The tumor purity of cancer patients' serum exosomes obtained from step3.
+#### Output data
+Differentially expressed miRNAs corrected by tumour purity.
+
+## Running the tests
