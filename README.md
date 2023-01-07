@@ -101,9 +101,14 @@ Utilizing the exosome purity calculated by the model to correct differentially e
 Applying R script **04gene_correct.R** for this step.
 #### Input data
 ./testdata/04correct_DEG_gene/healthy_cpm_exosomes.csv
+
 ./testdata/04correct_DEG_gene/cancer_cpm_exosomes.csv
+
 ./testdata/04correct_DEG_gene/01before_crc_0.05_188.Rdata
+
 ./resultdata/03cancer_serum_purity/serum_putity.csv
+
 #### Output data
 ./resultdata/04correct_DEG_gene/01after_crc_p0.05_71.Rdata
+
 ./resultdata/04correct_DEG_gene/01new_crc_p0.05_27.Rdata
