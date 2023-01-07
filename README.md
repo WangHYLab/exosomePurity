@@ -36,7 +36,7 @@ Signatures between cancer cell line-derived exosomes and healthy cell-derived ex
 ### Step3
 Building tumour purity deconvolution model to quantify the proportions of cancer exosomes and normal exosomes in serum.
 
-Applying R script **03mode_0_1.R** for this step. 
+Applying R script **03purity_mode.R** for this step. 
 #### Input data
 The miRNA-Seq data of cancer cell line-derived exosomes and healthy cell-derived exosomes(CPM).
 
@@ -86,7 +86,7 @@ Applying R script **02signature_Var_Exp.r** for this step.
 ### Step3
 Builting tumour purity deconvolution model to quantify the proportions of cancer exosomes and normal exosomes in serum.
 
-Applying R script **03mode_0_1.R** for this step. 
+Applying R script **03purity_mode.R** for this step. 
 #### Input data
 [cell_line_cpm_miExpr_var.csv]
 [normal_cpm_miExpr_var.csv]
