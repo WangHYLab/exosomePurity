@@ -62,6 +62,6 @@ Applying R script 01signature_DEGS.r for this step.
 **./testdata/01cancer_healthy_cellline_derived_count_exosomes/healthy_cellline_derived_exosomes.csv**
 **./testdata/01cancer_healthy_cellline_derived_count_exosomes/cancer_cellline_derived_exosomes1.csv**
 **./testdata/01cancer_healthy_cellline_derived_count_exosomes/cancer_cellline_derived_exosomes2.csv**
-**./testdata/01cancer_healthy_cellline_derived_count_exosomes/cancer_cellline_derived_exosomes3.csv**
+./testdata/01cancer_healthy_cellline_derived_count_exosomes/cancer_cellline_derived_exosomes3.csv
 #### Output data
-**./resultdata/01signature_DEGS_data/CRC_0.01_160.Rdata**
+./resultdata/01signature_DEGS_data/CRC_0.01_160.Rdata
