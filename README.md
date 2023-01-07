@@ -62,9 +62,13 @@ Performing the differential analysiss between cancer cell line-derived exosomes 
 Applying R script **01signature_DEGS.r** for this step.
 #### Input data
 ./testdata/01cancer_healthy_cellline_derived_count_exosomes/healthy_cellline_derived_exosomes.csv
+
 ./testdata/01cancer_healthy_cellline_derived_count_exosomes/cancer_cellline_derived_exosomes1.csv
+
 ./testdata/01cancer_healthy_cellline_derived_count_exosomes/cancer_cellline_derived_exosomes2.csv
+
 ./testdata/01cancer_healthy_cellline_derived_count_exosomes/cancer_cellline_derived_exosomes3.csv
+
 #### Output data
 ./resultdata/01signature_DEGS_data/CRC_0.01_160.Rdata
 
@@ -74,10 +78,15 @@ Selecting miRNA signatures which are differentially expressed between groups and
 Applying R script **02signature_Var_Exp.r** for this step.
 #### Input data
 ./testdata/02cancer_healthy_cellline_derived_cpm_exosomes/healthy_cellline_derived_cpm_exosomes.csv
+
 ./testdata/02cancer_healthy_cellline_derived_cpm_exosomes/cancer_cellline_derived_cpm_exosomes1.csv
+
 ./testdata/02cancer_healthy_cellline_derived_cpm_exosomes/cancer_cellline_derived_cpm_exosomes2.csv
+
 ./testdata/02cancer_healthy_cellline_derived_cpm_exosomes/cancer_cellline_derived_cpm_exosomes3.csv
+
 ./resultdata/01signature_DEGS_data/CRC_0.01_160.Rdata
+
 #### Output data
 ./resultdata/02signature_Var_data/CRC_var2_h20_48refgenes.Rdata
 
@@ -87,11 +96,17 @@ Building tumour purity deconvolution model to quantify the proportions of cancer
 Applying R script **03purity_mode.R** for this step.
 #### Input data
 ./testdata/02cancer_healthy_cellline_derived_cpm_exosomes/healthy_cellline_derived_cpm_exosomes.csv
+
 ./testdata/02cancer_healthy_cellline_derived_cpm_exosomes/cancer_cellline_derived_cpm_exosomes1.csv
+
 ./testdata/02cancer_healthy_cellline_derived_cpm_exosomes/cancer_cellline_derived_cpm_exosomes2.csv
+
 ./testdata/02cancer_healthy_cellline_derived_cpm_exosomes/cancer_cellline_derived_cpm_exosomes3.csv
+
 ./testdata/03cancer_serum_cpm_exosomes/cancer_serum_cpm_exosomes.csv
+
 ./resultdata/02signature_Var_data/CRC_var2_h20_48refgenes.Rdata
+
 #### Output data
 ./resultdata/03cancer_serum_purity/serum_putity.csv
 
