@@ -57,7 +57,7 @@ Differentially expressed miRNAs corrected by tumour purity.
 ## Running the tests
 ### Step1
 Performing the differential analysiss between cancer cell line-derived exosomes and healthy cell-derived exosomes using miRNA-Seq data.
-Applying R script 01signature_DEGS.r for this step.
+Applying R script **01signature_DEGS.r** for this step.
 #### Input data
 ./testdata/01cancer_healthy_cellline_derived_count_exosomes/healthy_cellline_derived_exosomes.csv
 ./testdata/01cancer_healthy_cellline_derived_count_exosomes/cancer_cellline_derived_exosomes1.csv
@@ -65,3 +65,16 @@ Applying R script 01signature_DEGS.r for this step.
 ./testdata/01cancer_healthy_cellline_derived_count_exosomes/cancer_cellline_derived_exosomes3.csv
 #### Output data
 ./resultdata/01signature_DEGS_data/CRC_0.01_160.Rdata
+
+
+### Step2
+Selecting miRNA signatures which are differentially expressed between groups and stably expressed within groups.
+Applying R script **02signature_Var_Exp.r** for this step.
+#### Input data
+./testdata/02cancer_healthy_cellline_derived_cpm_exosomes/healthy_cellline_derived_cpm_exosomes.csv
+./testdata/02cancer_healthy_cellline_derived_cpm_exosomes/cancer_cellline_derived_cpm_exosomes1.csv
+./testdata/02cancer_healthy_cellline_derived_cpm_exosomes/cancer_cellline_derived_cpm_exosomes2.csv
+./testdata/02cancer_healthy_cellline_derived_cpm_exosomes/cancer_cellline_derived_cpm_exosomes3.csv
+./resultdata/01signature_DEGS_data/CRC_0.01_160.Rdata
+#### Output data
+./resultdata/02signature_Var_data/CRC_var2_h20_48refgenes.Rdata
