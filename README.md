@@ -58,3 +58,14 @@ The tumor purity of cancer patients' serum exosomes obtained from step3.
 Differentially expressed miRNAs corrected by tumour purity.
 
 ## Running the tests
+### Step1
+Performing the differential analysiss between cancer cell line-derived exosomes and healthy cell-derived exosomes using miRNA-Seq data.
+Applying R script 01signature_DEGS.r for this step.
+#### Input data
+**./testdata/01cancer_healthy_cellline_derived_count_exosomes/healthy_cellline_derived_exosomes.csv
+./testdata/01cancer_healthy_cellline_derived_count_exosomes/cancer_cellline_derived_exosomes1.csv
+./testdata/01cancer_healthy_cellline_derived_count_exosomes/cancer_cellline_derived_exosomes2.csv
+./testdata/01cancer_healthy_cellline_derived_count_exosomes/cancer_cellline_derived_exosomes3.csv
+**
+#### Output data
+**./resultdata/01signature_DEGS_data/CRC_0.01_160.Rdata**
