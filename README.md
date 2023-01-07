@@ -83,7 +83,7 @@ Applying R script **02signature_Var_Exp.r** for this step.
 
 
 ### Step3
-Builting tumour purity deconvolution model to quantify the proportions of cancer exosomes and normal exosomes in serum.
+Building tumour purity deconvolution model to quantify the proportions of cancer exosomes and normal exosomes in serum.
 Applying R script **03purity_mode.R** for this step.
 #### Input data
 ./testdata/02cancer_healthy_cellline_derived_cpm_exosomes/healthy_cellline_derived_cpm_exosomes.csv
