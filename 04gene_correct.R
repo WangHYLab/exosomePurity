@@ -3,7 +3,7 @@ normal_cpm_miExpr<- read.csv("./testdata/04correct_DEG_gene/healthy_cpm_exosomes
 colnames(normal_cpm_miExpr)[1]<- "gene_id"
 cell_line_cpm_miExpr<- read.csv("./testdata/04correct_DEG_gene/cancer_cpm_exosomes.csv")[,-1]
 colnames(cell_line_cpm_miExpr)[1]<- "gene_id"
-tumor_cpm_miExpr<-cell_line_cpm_miExpr
+tumor_cpm_miExpr<-cell_line_cpm_miExpr 
 
 X<-normal_cpm_miExpr
 Y<-tumor_cpm_miExpr
