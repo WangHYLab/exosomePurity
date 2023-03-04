@@ -9,7 +9,7 @@ colnames(cell_line_cpm_miExpr1)[1]<- "gene_id"
 cell_line_cpm_miExpr2 <- read.csv("./testdata/02cancer_healthy_cellline_derived_cpm_exosomes/cancer_cellline_derived_cpm_exosomes2.csv")
 colnames(cell_line_cpm_miExpr2)[1]<- "gene_id"
 cell_line_cpm_miExpr5 <- read.csv("./testdata/02cancer_healthy_cellline_derived_cpm_exosomes/cancer_cellline_derived_cpm_exosomes3.csv")
-colnames(cell_line_cpm_miExpr5)[1]<- "gene_id"
+colnames(cell_line_cpm_miExpr5)[1]<- "gene_id" 
 
 cell_line_cpm_miExpr <- merge(cell_line_cpm_miExpr1,cell_line_cpm_miExpr2,by="gene_id",all=FALSE)
 cell_line_cpm_miExpr <- merge(cell_line_cpm_miExpr,cell_line_cpm_miExpr5,by="gene_id",all=FALSE)
