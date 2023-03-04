@@ -19,7 +19,7 @@
 }
 
 #----------------------var
-fun_var<-function(deg,exp){
+fun_var<-function(deg,exp){ 
   
   diff<-deg
   cpm_miExpr<-exp
