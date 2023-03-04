@@ -2,7 +2,7 @@
 {
 normal_miExpr1 <- read.csv("./testdata/02cancer_healthy_cellline_derived_cpm_exosomes/healthy_cellline_derived_cpm_exosomes.csv")
 normal_cpm_miExpr<-normal_miExpr1
-normal_cpm_miExpr<-normal_cpm_miExpr[,-1]
+normal_cpm_miExpr<-normal_cpm_miExpr[,-1] 
 
 cell_line_cpm_miExpr1 <- read.csv("./testdata/02cancer_healthy_cellline_derived_cpm_exosomes/cancer_cellline_derived_cpm_exosomes1.csv")
 colnames(cell_line_cpm_miExpr1)[1]<- "gene_id"
